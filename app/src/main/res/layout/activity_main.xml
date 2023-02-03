@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telechargements Youtube"
+        android:textSize="28sp"
+        android:textColor="#147818"
+        android:textStyle="italic|bold"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/youtube_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textUri"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:hint="Donner le lien de la video"
+        android:padding="10dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Telecharger la video"
+        android:padding="10dp"
+        android:textSize="25sp">
+
+    </Button>
+
+</LinearLayout>
